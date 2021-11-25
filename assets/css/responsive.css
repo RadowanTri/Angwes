@@ -1,0 +1,49 @@
+/* Laptop */
+
+@media (max-width:1399px) {}
+
+@media (min-width: 320px) and (max-width:1499px) {}
+
+@media (min-width: 320px) and (max-width: 1399px) {}
+
+@media (min-width: 320px) and (max-width: 1299px) {}
+
+@media (min-width: 320px) and (max-width: 1199px) {}
+
+/* Normal (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 320px) and (max-width: 991px) {}
+
+@media (min-width: 767px) and (max-width: 991px) {}
+
+/* small devices (320px)*/
+
+@media (max-width: 767px) {
+    .survey-nav .nav {
+        text-align: center;
+        flex: auto;
+        justify-content: center;
+    }
+    .survey-nav li a {
+        padding: 10px 8px;
+        margin: 5px 5px;
+}
+.survey-heading {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+}
+
+
+@media (min-width: 767px) and (max-width: 991px) {
+    .survey-nav li a {
+        padding: 10px 8px;
+        margin: 5px 5px;
+    }
+    .survey-top-bar {
+      padding: 10px 5px;
+    }
+}
