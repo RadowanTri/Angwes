@@ -90,4 +90,8 @@
     .order-list-right li {
         font-size: 13px;
     }
+    .grid-4 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

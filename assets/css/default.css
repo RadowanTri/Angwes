@@ -1201,7 +1201,7 @@ p {
 
 .grid-4 {
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat( auto-fit, minmax(350px, 1fr));
     gap: 10px;
     /* grid-template-columns: repeat( 5, minmax(250px, 1fr) );*/
 }
@@ -1838,7 +1838,8 @@ form.user .btn-user {
     -o-border-radius: 10rem;
 }
 
-.animated--grow-in,
+
+/* .animated--grow-in,
 .sidebar .nav-item .collapse {
     -webkit-animation-name: growIn;
     animation-name: growIn;
@@ -1857,9 +1858,10 @@ form.user .btn-user {
         transform: scale(1);
         opacity: 1;
     }
-}
+} */
 
-.animated--fade-in {
+
+/* .animated--fade-in {
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
     -webkit-animation-duration: 200ms;
@@ -1875,4 +1877,4 @@ form.user .btn-user {
     100% {
         opacity: 1;
     }
-}
+} */
