@@ -1878,3 +1878,10 @@ form.user .btn-user {
         opacity: 1;
     }
 } */
+
+.heading-info {
+    color: #620F9A;
+    border-bottom: 1px solid #dddfeb;
+    display: inline-block;
+    margin-bottom: 10px;
+}
