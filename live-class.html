@@ -48,7 +48,7 @@
             <hr class="sidebar-divider my-0">
 
             <!-- Nav Item - Dashboard -->
-            <li class="nav-item   active">
+            <li class="nav-item ">
                 <a class="nav-link" href="index.html">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
@@ -56,14 +56,14 @@
             <!-- Divider -->
             <hr class="sidebar-divider">
 
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link" href="teacher.html">
                     <i class="fas fa-users"></i>
                     <span>Teaceher</span></a>
             </li>
             <!-- Divider -->
             <hr class="sidebar-divider">
-            <li class="nav-item  active">
+            <li class="nav-item">
                 <a class="nav-link" href="parents.html">
                     <i class="fas fa-user"></i>
                     <span>Parents</span></a>
@@ -209,8 +209,8 @@
 
                     <!-- Sidebar Toggle (Topbar) -->
                     <button id="sidebarToggleTop" class="btn btn-link rounded-circle mr-3">
-                        <i class="fa fa-bars"></i>
-                    </button>
+                <i class="fa fa-bars"></i>
+            </button>
 
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
@@ -349,154 +349,94 @@
                             <div class="card-body">
                                 <h4 class="page-title">
                                     <a href="index.html" class="sm-none"><i class="fas fa-th-large"></i> <span>Dashboard</span> <span class="slash">/</span> </a>
-                                    <a href="parents.html"> <i class="fas fa-users"></i> <span>Parents</span> <span class="slash">/</span> </a>
-                                    <a href="parents-view.html" class="page-active"> <span>View</span> </a>
+                                    <a href="live-class.html" class="page-active"> <i class="fas fa-users"></i> <span>Live Class</span> </a>
 
                                 </h4>
                             </div>
                             <!-- end card body-->
                         </div>
                     </div>
-                    <div class="content-body  mb-4">
+                    <div class="content-body  mb-4 live-class">
                         <div class="content_shadow">
-                            <div class="row justify-content-center">
-                                <div class="col-md-8 col-sm-12">
-                                    <div class="teacher-view">
-                                        <div class="teacher-profile mb-4">
-                                            <div class="text-center">
-                                                <img class="w-150 rounded-circle" src="assets/img/undraw_profile.svg">
-                                                <div class="teacher-title">
-                                                    <h5 class="my-2 text-green">Radowan</h5>
-                                                    <h6 class="text-sky">Web Designer</h6>
-                                                </div>
-                                            </div>
+
+                            <div class="view-all">
+                                <form action="">
+                                    <div class="show-data-e j-between">
+                                        <div class="show-entity">
+                                            <label>
+                                        Show
+                                        <select class="f-control w-20">
+                                            <option value="1">01</option>
+                                            <option  value="10">10</option>
+                                            <option  value="100">100</option>
+                                        </select>
+                                        Entity
+                                    </label>
                                         </div>
-                                        <table class="table table-hover">
-                                            <tbody>
-                                                <tr>
-                                                    <td>Gender</td>
-                                                    <td>Male</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Date of Birth</td>
-                                                    <td>15-12-1995</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Email</td>
-                                                    <td>example@gmail.com</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Join Date</td>
-                                                    <td>15-12-2021</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Religoin</td>
-                                                    <td>Islam</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Address</td>
-                                                    <td>Dhaka</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
+                                        <div class="search-entity">
+                                            <label>
+                                        Search:
+                                        <input type="text" placeholder="Search" class="f-control  w-150">
+                                    </label>
+                                        </div>
 
                                     </div>
+                                </form>
+
+                                <div class="mt-3 table-view-content">
+                                    <table class="table  table-hover">
+                                        <thead class="table-head">
+                                            <tr>
+                                                <th>Date</th>
+                                                <!-- <th>Subject</th> -->
+                                                <th>Subject Code</th>
+                                                <th>Teacher Name</th>
+                                                <th>Start Time</th>
+                                                <th>End Time</th>
+                                                <th>Topics</th>
+                                                <th>Location</th>
+                                                <th>Zoom ID</th>
+                                                <th>Reference</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="table-body">
+                                            <tr class="table-row">
+                                                <td data-label="Date:">12/6/2021</td>
+                                                <!-- <td data-label="Subject:">
+                                                    Bangla
+                                                </td> -->
+                                                <td data-label="Subject Code">Cse-206</td>
+                                                <td data-label="Teacher Name">Timerni</td>
+                                                <td data-label="Start Tiame">10 AM</td>
+                                                <td data-label="End Time">12 PM</td>
+                                                <td data-label="Topics">
+                                                    <div class="topics">
+                                                        <p class=" text-truncate">
+                                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam facere accusantium sequi vitae sed reprehenderit laborum numquam, sapiente maxime tenetur enim possimus,
+                                                        </p>
+                                                    </div>
+
+                                                </td>
+                                                <td data-label="Online">Online</td>
+                                                <td data-label="ID">dfglksdaglkbnl</td>
+                                                <td data-label="Reference">
+                                                    <a href="#">
+                                                       www.zoom.com
+                                                    </a>
+                                                </td>
+                                            </tr>
+
+
+                                        </tbody>
+                                    </table>
 
                                 </div>
                             </div>
-
-                            <div class="mt-4 border">
-                                <div class="p-3">
-                                    <div class="text-center">
-                                        <h3 class="heading-info">Child Info</h3>
-                                    </div>
-                                    <form action="">
-                                        <div class="show-data-e j-between">
-                                            <div class="show-entity">
-                                                <label>
-                                            Show
-                                            <select class="f-control w-20">
-                                                <option value="1">01</option>
-                                                <option  value="10">10</option>
-                                                <option  value="100">100</option>
-                                            </select>
-                                            Entity
-                                        </label>
-                                            </div>
-                                            <div class="search-entity">
-                                                <label>
-                                            Search:
-                                            <input type="text" placeholder="Search" class="f-control  w-150">
-                                        </label>
-                                            </div>
-
-                                        </div>
-                                    </form>
-
-                                    <div class="mt-3 table-view-content">
-                                        <table class="table  table-hover">
-                                            <thead class="table-head">
-                                                <tr>
-                                                    <th>#</th>
-                                                    <th>Photo</th>
-                                                    <th>Childs Name</th>
-                                                    <th>Class</th>
-                                                    <th>Section</th>
-                                                    <th>Roll No</th>
-                                                    <th>Email</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody class="table-body">
-                                                <tr class="table-row">
-                                                    <td data-label="S.No">1</td>
-                                                    <td data-label="Photo" class="avatar-img-area">
-                                                        <img class="img-profile rounded-circle" src="assets/img/undraw_profile.svg">
-                                                    </td>
-                                                    <td data-label="Name">Timerni</td>
-                                                    <td data-label="Class">One</td>
-                                                    <td data-label="Section">C</td>
-                                                    <td data-label="Roll No">5272635</td>
-                                                    <td data-label="Email">radowan@gamil.com</td>
-                                                </tr>
-
-                                                <tr class="table-row">
-                                                    <td data-label="S.No">2</td>
-                                                    <td data-label="Photo" class="avatar-img-area">
-                                                        <img class="img-profile rounded-circle" src="assets/img/undraw_profile.svg">
-                                                    </td>
-                                                    <td data-label="Name">Timerni</td>
-                                                    <td data-label="Class">One</td>
-                                                    <td data-label="Section">C</td>
-                                                    <td data-label="Roll No">5272635</td>
-                                                    <td data-label="Email">radowan@gamil.com</td>
-                                                </tr>
-                                                <tr class="table-row">
-                                                    <td data-label="S.No">3</td>
-                                                    <td data-label="Photo" class="avatar-img-area">
-                                                        <img class="img-profile rounded-circle" src="assets/img/undraw_profile.svg">
-                                                    </td>
-                                                    <td data-label="Name">Timerni</td>
-                                                    <td data-label="Class">One</td>
-                                                    <td data-label="Section">C</td>
-                                                    <td data-label="Roll No">5272635</td>
-                                                    <td data-label="Email">radowan@gamil.com</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-
-                                    </div>
-                                </div>
-                                <!-- table-view-content -->
-                            </div>
-
-
                         </div>
 
 
 
                     </div>
-
-
 
                 </div>
 
@@ -524,7 +464,14 @@
         <!--=== Main js ===-->
         <script type="text/javascript" src="assets/js/main.js"></script>
 
-
+        <script>
+            //   $(document).ready(function() {
+            //   $("#side-navCollapse").on("click", function() {
+            //     $("#side-nav").toggleClass("active");
+            //     $(this).toggleClass("active");
+            //   });
+            // });
+        </script>
 </body>
 
 </html>

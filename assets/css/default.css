@@ -1206,6 +1206,24 @@ p {
     /* grid-template-columns: repeat( 5, minmax(250px, 1fr) );*/
 }
 
+.grid-auto {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+    /* grid-template-columns: repeat( 5, minmax(250px, 1fr) );*/
+}
+
+.btn-filter {
+    background: #132035;
+    color: #fff;
+    display: block;
+    width: 100%;
+}
+
+.btn-filter:hover {
+    color: #fff;
+}
+
 .w-150 {
     width: 150px;
 }
@@ -1385,6 +1403,16 @@ p {
 .grid-view-content .j-between {
     flex-direction: column;
     border-radius: 4px;
+}
+
+.btn-sky-bg {
+    background: #39AFD1;
+    color: #fff;
+}
+
+.table-view-content {
+    overflow-x: auto;
+    /* width: 99%; */
 }
 
 

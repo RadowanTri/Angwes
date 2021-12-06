@@ -1,8 +1,41 @@
 /* Teacher css */
-.teacher-view .table{
-  border: 1px solid #dee2e6;
+
+.teacher-view .table {
+    border: 1px solid #dee2e6;
 }
-.teacher-view .teacher-profile img{
-  border: 2px solid #dee2e6;
-  padding: 10px;
+
+.teacher-view .teacher-profile img {
+    border: 2px solid #dee2e6;
+    padding: 10px;
+}
+
+
+/* Live Class */
+
+.live-class .topics {
+    max-width: 20.375rem;
+}
+
+.live-class .table-view-content thead th {
+    white-space: pre;
+}
+
+
+/* course-outline */
+
+.course-outline .table {
+    border: #dee2e6;
+}
+
+.cariculam-c .btn-sky-bg {
+    transition: .3s;
+}
+
+.cariculam-c .btn-sky-bg:hover {
+    color: #fff;
+    background: #0559B8;
+}
+
+.cariculam-c .btn-sky-bg:hover {
+    color: #fff;
 }
