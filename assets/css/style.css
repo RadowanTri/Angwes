@@ -120,6 +120,14 @@
     padding-bottom: 10px;
 }
 
+.exam-ques p:first-child {
+    width: 80%;
+}
+
+.exam-ques.j-between {
+    align-items: end;
+}
+
 
 /* exam-schedule */
 

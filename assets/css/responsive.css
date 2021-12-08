@@ -1,6 +1,17 @@
 /* Laptop */
 
-@media (max-width:1399px) {}
+@media (max-width:1199px) {
+    /* take-exam */
+    .exam-ques.j-between {
+        display: block;
+    }
+    .exam-ques.j-between p:last-child {
+        text-align: right;
+    }
+    .exam-ques p:first-child {
+        width: 100%;
+    }
+}
 
 
 /* Normal (desktops, 992px and up) */
