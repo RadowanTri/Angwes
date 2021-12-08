@@ -16,7 +16,6 @@
     <!--=== Bootstrap 4 ===-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!--=== Owl carousel 2.3.4===-->
-    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.0.0/index.css" integrity="sha512-TXwdQlED5Ep8Ijxiemxo2Kae+ov4OEhfHf+j6SfVC0SWDE+w3DbkdshisoFcPzsKYN8eidLda1MUvM7+6MFFig==" crossorigin="anonymous" referrerpolicy="no-referrer"
@@ -25,7 +24,6 @@
     <link rel="stylesheet" href="assets/css/default.css">
     <!--=== Style & Responsive  Css ===-->
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/teacher.css">
     <!--=== Responsive Css ===-->
     <link rel="stylesheet" href="assets/css/responsive.css" />
 
@@ -49,7 +47,7 @@
             <hr class="sidebar-divider my-0">
 
             <!-- Nav Item - Dashboard -->
-            <li class="nav-item ">
+            <li class="nav-item">
                 <a class="nav-link" href="index.html">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
@@ -74,7 +72,7 @@
             <hr class="sidebar-divider">
 
             <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
                     <i class="fas fa-university"></i>
                     <span>Cariculam</span>
@@ -128,7 +126,7 @@
 
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link" href="exam-schudule.html">
                     <i class="fas fa-clock"></i>
                     <span>Exam Schedule</span>
@@ -351,113 +349,127 @@
                             <div class="card-body">
                                 <h4 class="page-title">
                                     <a href="index.html" class="sm-none"><i class="fas fa-th-large"></i> <span>Dashboard</span> <span class="slash">/</span> </a>
-                                    <!-- <a href="#" class="page-active"> <i class="fas fa-users"></i> <span>Course Outline</span> </a> -->
-                                    <a href="tutorial.html" class="page-active"> <i class="fas fa-users"></i> <span>Tutorail</span> </a>
+                                    <a href="exam-schedule.html" class="page-active"> <i class="fas fa-users"></i> <span>Exam Schedule</span> </a>
+
                                 </h4>
                             </div>
                             <!-- end card body-->
                         </div>
                     </div>
-                    <div class="content-body  mb-4 course-outline">
-                        <div class="content_shadow  mb-4">
-                            <div class="course-out">
-                                <div class="text-center">
-                                    <h5 class="sub-header">Tutorail</h5>
-                                </div>
-                                <hr class="sidebar-divider">
-                                <div class="course-form col-lg-12 col-xl-10 m-auto">
-                                    <form action="">
-                                        <div class="grid-auto ">
-                                            <select name="" id="" class="form-control">
-                                                <option value="" selected>Class</option>
-                                                <option value="">1</option>
-                                                <option value="">2</option>
-                                            </select>
-                                            <select name="" id="" class="form-control">
-                                                <option value="" selected>Section</option>
-                                                <option value="">2</option>
-                                                <option value="">2</option>
-                                            </select>
-                                            <select name="" id="" class="form-control">
-                                                <option value="" selected>Subject</option>
-                                                <option value="">2</option>
-                                                <option value="">2</option>
-                                            </select>
-                                            <div>
-                                                <button class="btn btn-filter">Filter</button>
-                                            </div>
-                                        </div>
+                    <div class="content-body  mb-4 exam-schedule">
+                        <div class="content_shadow">
 
-                                    </form>
 
-                                    <div class="mt-4 grid-3">
-                                        <div class="assignment-content blue-bg">
-                                            <div class="text-center">
-                                                <a href="https://www.youtube.com/watch?v=y0uT4izH8F0" class="video-icon">
-                                                    <i class="fas fa-play"></i>
-                                                </a>
-                                            </div>
-                                            <p>Assignment Title: Honest is best Policy</p>
-                                            <p>Submit date: 15/12/2021</p>
-                                            <p>Subject: Bangla</p>
-                                        </div>
-                                        <div class="assignment-content blue-bg">
-                                            <div class="text-center">
-                                                <a href="https://www.youtube.com/watch?v=y0uT4izH8F0" class="video-icon">
-                                                    <i class="fas fa-play"></i>
-                                                </a>
-                                            </div>
-                                            <p>Assignment Title: Honest is best Policy</p>
-                                            <p>Submit date: 15/12/2021</p>
-                                            <p>Subject: Bangla</p>
-                                        </div>
-                                        <div class="assignment-content blue-bg">
-                                            <div class="text-center">
-                                                <a href="https://www.youtube.com/watch?v=y0uT4izH8F0" class="video-icon">
-                                                    <i class="fas fa-play"></i>
-                                                </a>
-                                            </div>
-                                            <p>Assignment Title: Honest is best Policy</p>
-                                            <p>Submit date: 15/12/2021</p>
-                                            <p>Subject: Bangla</p>
-                                        </div>
+                            <div class="take-exam p-3">
+                                <div class="course-form row">
 
+                                    <div class="col-md-2">
+                                        <a href="#" class="btn btn-facebook">All Exam</a>
                                     </div>
+                                    <div class="col-md-10">
+                                        <form action="" class="ml-auto ">
+                                            <div class="grid-auto  mb-4">
+                                                <select name="" id="" class="form-control">
+                                                    <option value="" selected="">Class</option>
+                                                    <option value="">1</option>
+                                                    <option value="">2</option>
+                                                </select>
+                                                <select name="" id="" class="form-control">
+                                                    <option value="" selected="">Section</option>
+                                                    <option value="">2</option>
+                                                    <option value="">2</option>
+                                                </select>
+                                                <select name="" id="" class="form-control">
+                                                    <option value="" selected="">Subject</option>
+                                                    <option value="">2</option>
+                                                    <option value="">2</option>
+                                                </select>
+                                                <div>
+                                                    <button class="btn btn-filter">Filter</button>
+                                                </div>
+                                            </div>
+
+                                        </form>
+                                    </div>
+
+                                </div>
+                                <div class="mt-3 table-view-content">
+                                    <table border="1" class="table  table-hover">
+                                        <thead class="table-head">
+                                            <tr>
+                                                <th>Exam Name</th>
+                                                <th>Class </th>
+                                                <th>Section</th>
+                                                <th>Subject Name</th>
+                                                <th>Date</th>
+                                                <th>Time</th>
+                                                <th>Room</th>
+
+                                            </tr>
+                                        </thead>
+                                        <tbody class="table-body">
+                                            <tr class="table-row">
+                                                <td data-label="Exam Name:">First Term</td>
+                                                <td data-label="Classm"> 01</td>
+                                                <td data-label="Section">One</td>
+                                                <td data-label="Subject Name">English</td>
+                                                <td data-label="Date">12 March 21</td>
+                                                <td data-label="Time">10.00 am - 11.00 am</td>
+                                                <td data-label="Room">Room: 101 </td>
+                                            </tr>
+                                            <tr class="table-row">
+                                                <td data-label="Exam Name:">First Term</td>
+                                                <td data-label="Classm"> 01</td>
+                                                <td data-label="Section">One</td>
+                                                <td data-label="Subject Name">English</td>
+                                                <td data-label="Date">12 March 21</td>
+                                                <td data-label="Time">10.00 am - 11.00 am</td>
+                                                <td data-label="Room">Room: 101 </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
                                 </div>
                             </div>
+
+
+
                         </div>
 
                     </div>
 
-
-
+                    <!-- End of Container -->
                 </div>
-
             </div>
-
-            <!-- End of Container -->
+            <!-- End of Sidebar -->
         </div>
-        </div>
-        <!-- End of Sidebar -->
-    </div>
 
 
 
-    <!--=== All Plugin ===-->
-    <!--============= Jquery-3.6.0 =============-->
-    <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <!--=== Bootstrap4 js ===-->
-    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-    <!--=== owl carousel ===-->
-    <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
-    <!--=== magnific-popup ===-->
-    <script type="text/javascript" src="assets/js/magnific-popup.min.js"></script>
-    <!--=== owl carousel ===-->
-    <!--=== Main js ===-->
-    <script type="text/javascript" src="assets/js/main.js"></script>
+        <!--=== All Plugin ===-->
+        <!--============= Jquery-3.6.0 =============-->
+        <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+        <!--=== Bootstrap4 js ===-->
+        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+        <!--=== owl carousel ===-->
+        <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+        <!--=== magnific-popup ===-->
+        <script type="text/javascript" src="assets/js/magnific-popup.min.js"></script>
+        <!--=== owl carousel ===-->
+        <!--=== Main js ===-->
+        <script type="text/javascript" src="assets/js/main.js"></script>
+
+        <script>
+            //   $(document).ready(function() {
+            //   $("#side-navCollapse").on("click", function() {
+            //     $("#side-nav").toggleClass("active");
+            //     $(this).toggleClass("active");
+            //   });
+            // });
+        </script>
 </body>
 
 </html>

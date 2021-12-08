@@ -112,3 +112,17 @@
     border-radius: 5px;
     margin-bottom: 15px;
 }
+
+
+/* take-exam */
+
+.exam-ques {
+    padding-bottom: 10px;
+}
+
+
+/* exam-schedule */
+
+.exam-schedule .table {
+    border: #dee2e6;
+}
