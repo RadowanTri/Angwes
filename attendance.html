@@ -15,11 +15,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
     <!--=== Bootstrap 4 ===-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!--=== Owl carousel 2.3.4===-->
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.0.0/index.css" integrity="sha512-TXwdQlED5Ep8Ijxiemxo2Kae+ov4OEhfHf+j6SfVC0SWDE+w3DbkdshisoFcPzsKYN8eidLda1MUvM7+6MFFig==" crossorigin="anonymous" referrerpolicy="no-referrer"
-    />
     <!--=== Main Css ===-->
     <link rel="stylesheet" href="assets/css/default.css">
     <!--=== Style & Responsive  Css ===-->
@@ -83,7 +78,7 @@
                         <a class="collapse-item" href="course.html">Course Outline</a>
                         <a class="collapse-item" href="routine.html">Routine</a>
                         <a class="collapse-item" href="assignment.html">Assignment</a>
-                        <a class="collapse-item" href="tutorial.html">Tutorial</a>
+                        <a class="collapse-item" href="tutorail.html">Tutorial</a>
                         <a class="collapse-item" href="attendance.html">Attendance</a>
                     </div>
                 </div>
@@ -186,7 +181,7 @@
                     <div class="bg-white py-2 collapse-inner rounded">
                         <!-- <h6 class="collapse-header">Custom Components:</h6> -->
                         <a class="collapse-item" href="notice.html">Notice</a>
-                        <a class="collapse-item" href="holiday.html">Holiday</a>
+                        <a class="collapse-item" href="holyday.html">Holiday</a>
                         <a class="collapse-item" href="event.html">Events</a>
                     </div>
             </li>
@@ -350,7 +345,7 @@
                                 <h4 class="page-title">
                                     <a href="index.html" class="sm-none"><i class="fas fa-th-large"></i> <span>Dashboard</span> <span class="slash">/</span> </a>
                                     <!-- <a href="#" class="page-active"> <i class="fas fa-users"></i> <span>Course Outline</span> </a> -->
-                                    <a href="routine.html" class="page-active"> <i class="fas fa-users"></i> <span>Routine</span> </a>
+                                    <a href="attendance.html" class="page-active"> <i class="fas fa-users"></i> <span>Attendance</span> </a>
                                 </h4>
                             </div>
                             <!-- end card body-->
@@ -360,94 +355,158 @@
                         <div class="content_shadow  mb-4">
                             <div class="course-out">
                                 <div class="text-center">
-                                    <h5 class="sub-header">Routine</h5>
+                                    <h5 class="sub-header">Attendance</h5>
                                 </div>
                                 <hr class="sidebar-divider">
-                                <div class="course-form col-lg-12 col-xl-10 m-auto">
-                                    <form action="">
-                                        <div class="grid-auto ">
-                                            <select name="" id="" class="form-control">
-                                                <option value="" selected>Class</option>
-                                                <option value="">1</option>
-                                                <option value="">2</option>
-                                            </select>
-                                            <select name="" id="" class="form-control">
-                                                <option value="" selected>Section</option>
-                                                <option value="">2</option>
-                                                <option value="">2</option>
-                                            </select>
+                                <!-- Start Form Here -->
+                                <div class="attendance card">
+                                    <div class="card-body">
+                                        <form class="mt-3">
+
+                                            <div class="attandence-forms-space">
+                                                <div class="grid-5 ">
+                                                    <div class="">
+
+                                                        <select id="inputState" class="form-control">
+                                                            <option class="options" selected="">November</option>
+                                                            <option class="options">Decenmber</option>
+                                                            <option class="options">january</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="">
+
+                                                        <select id="inputState" class="form-control">
+                                                            <option class="options" selected="">Day</option>
+                                                            <option class="options">Sunday</option>
+                                                            <option class="options">Friday</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="">
+
+                                                        <select id="inputState" class="form-control">
+                                                            <option class="options" selected="">Class</option>
+                                                            <option class="options">Eight</option>
+                                                            <option class="options">Nine</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="">
+
+                                                        <select id="inputState" class="form-control">
+                                                            <option class="options" selected="">Section</option>
+                                                            <option class="options">A</option>
+                                                            <option class="options">B</option>
+                                                            <option class="options">C</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="btn-grps">
+
+                                                        <button type="button" class="btn btn-dark submit-btn">Filter</button>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </form>
+
+                                        <div class="month-attendance">
+                                            <div class="row justify-content-center mt-4">
+                                                <div class="col-md-4 mb-2">
+                                                    <div class="card text-center card-bg  h-100">
+                                                        <div class="card-body">
+                                                            <p class="card-title">Attendance report Of December</p>
+                                                            <p class="card-text">Total Present:10 days</p>
+                                                            <p class="card-text">Total Absent:10 days</p>
+                                                            <p class="card-text">Total Present:10 days</p>
+                                                            <p class="card-text">Total Leave:10 days</p>
+                                                            <p class="card-text">Last updated at:22-Dec-2019</p>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 mb-2">
+                                                    <div class="card text-center h-100">
+                                                        <div class="card-body">
+
+                                                            <p class="card-text">Online Present:10 days</p>
+                                                            <p class="card-text">Online Absent:10 days</p>
+                                                            <p class="card-text">Total Present:10 days</p>
+                                                            <p class="card-text">Total Leave:10 days</p>
+                                                            <p class="card-text">Last updated at:22-Dec-2019</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                             <div>
-                                                <button class="btn btn-filter">Filter</button>
+                                                <div class="attendance-form">
+                                                    <table class="table table-bordered p-0 mt-40">
+                                                        <thead>
+                                                            <tr>
+                                                                <th scope="col" class="table-arrows"> Date <i class="fas fa-arrow-right"></i> <br> Name <i class="fas fa-arrow-down"></i>
+                                                                </th>
+
+                                                                <th scope="col" data-toggle="tooltip" data-placement="top" title="" data-original-title="Online">1</th>
+                                                                <th scope="col" data-toggle="tooltip" data-placement="top" title="" data-original-title="Online">2</th>
+                                                                <th scope="col" data-toggle="tooltip" data-placement="top" title="" data-original-title="Online">3</th>
+                                                                <th scope="col" data-toggle="tooltip" data-placement="top" title="" data-original-title="Online">4</th>
+                                                                <th scope="col" data-toggle="tooltip" data-placement="top" title="" data-original-title="Online">5</th>
+                                                                <th scope="col" data-toggle="tooltip" data-placement="top" title="" data-original-title="Online">6</th>
+                                                                <th scope="col" data-toggle="tooltip" data-placement="top" title="" data-original-title="Online">7</th>
+                                                                <th scope="col" data-toggle="tooltip" data-placement="top" title="" data-original-title="Online">8</th>
+                                                                <th scope="col" data-toggle="tooltip" data-placement="top" title="" data-original-title="Online">9</th>
+                                                                <th scope="col" data-toggle="tooltip" data-placement="top" title="" data-original-title="Online">10</th>
+                                                                <th scope="col" data-toggle="tooltip" data-placement="top" title="" data-original-title="Online">11</th>
+                                                                <th scope="col" data-toggle="tooltip" data-placement="top" title="" data-original-title="Online">12</th>
+                                                                <th scope="col" data-toggle="tooltip" data-placement="top" title="" data-original-title="Online">13</th>
+                                                                <th scope="col" data-toggle="tooltip" data-placement="top" title="" data-original-title="Online">14</th>
+                                                                <th scope="col" data-toggle="tooltip" data-placement="top" title="" data-original-title="Online">15</th>
+                                                                <th scope="col" data-toggle="tooltip" data-placement="top" title="" data-original-title="Online">16</th>
+                                                                <th scope="col" data-toggle="tooltip" data-placement="top" title="" data-original-title="Online">17</th>
+                                                                <th scope="col" data-toggle="tooltip" data-placement="top" title="" data-original-title="Online">18</th>
+                                                                <th scope="col" data-toggle="tooltip" data-placement="top" title="" data-original-title="Online">19</th>
+                                                                <th scope="col" data-toggle="tooltip" data-placement="top" title="" data-original-title="Online">20</th>
+                                                                <th scope="col" data-toggle="tooltip" data-placement="top" title="" data-original-title="Online">21</th>
+                                                                <th scope="col" data-toggle="tooltip" data-placement="top" title="" data-original-title="Online">22</th>
+                                                                <th scope="col" data-toggle="tooltip" data-placement="top" title="" data-original-title="Online">23</th>
+                                                                <th scope="col" data-toggle="tooltip" data-placement="top" title="" data-original-title="Online">24</th>
+                                                                <th scope="col" data-toggle="tooltip" data-placement="top" title="" data-original-title="Online">25</th>
+                                                                <th scope="col" data-toggle="tooltip" data-placement="top" title="" data-original-title="Online">26</th>
+                                                                <th scope="col" data-toggle="tooltip" data-placement="top" title="" data-original-title="Online">27</th>
+                                                                <th scope="col" data-toggle="tooltip" data-placement="top" title="" data-original-title="Online">28</th>
+                                                                <th scope="col" data-toggle="tooltip" data-placement="top" title="" data-original-title="Online">29</th>
+                                                                <th scope="col" data-toggle="tooltip" data-placement="top" title="" data-original-title="Online">30</th>
+
+                                                                <!-- <th scope="col" class="tooltip-one">30<span class="triangle-bottom">Online</span></th>
+                                                                <th scope="col" class="tooltip-one">31<span class="triangle-bottom">Online</span></th>
+                                                                <th scope="col" class="tooltip-one">31<span class="triangle-bottom">Online</span></th> -->
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+
+                                                            <tr class="second-rows">
+                                                                <td class="color-list">Radowan</td>
+                                                                <td class="absent">A</td>
+                                                                <td class="leave">L</td>
+                                                                <td class="present">P</td>
+                                                                <td class="present">P</td>
+                                                                <td class="present">P</td>
+                                                                <td class="present">P</td>
+                                                                <td class="present">P</td>
+                                                            </tr>
+
+
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+
                                             </div>
                                         </div>
 
-                                    </form>
-
-                                    <div class="mt-3 table-view-content">
-                                        <table border="1" class="table  table-hover">
-                                            <thead class="table-head">
-                                                <tr>
-                                                    <th>Day / Time</th>
-                                                    <th>10.00 am - 11.00 am</th>
-                                                    <th>10.00 am - 11.00 am</th>
-                                                    <th>10.00 am - 11.00 am</th>
-                                                    <th>10.00 am - 11.00 am</th>
-                                                    <th>10.00 am - 11.00 am</th>
-                                                    <th>10.00 am - 11.00 am</th>
-
-                                                </tr>
-                                            </thead>
-                                            <tbody class="table-body">
-                                                <tr class="table-row">
-                                                    <td data-label="Day / Time">Satuday</td>
-                                                    <td data-label="10.00 am - 11.00 am">
-                                                        English <br> Room: 101 <br> Dr. Mr
-                                                    </td>
-                                                    <td data-label="10.00 am - 11.00 am">English <br> Room: 101 <br> Dr. Mr</td>
-                                                    <td data-label="10.00 am - 11.00 am">English <br> Room: 101 <br> Dr. Mr</td>
-                                                    <td data-label="10.00 am - 11.00 am">English <br> Room: 101 <br> Dr. Mr</td>
-                                                    <td data-label="10.00 am - 11.00 am">English <br> Room: 101 <br> Dr. Mr</td>
-                                                    <td data-label="10.00 am - 11.00 am">English <br> Room: 101 <br> Dr. Mr</td>
-                                                </tr>
-                                                <tr class="table-row">
-                                                    <td data-label="Day / Time">Satuday</td>
-                                                    <td data-label="10.00 am - 11.00 am">
-                                                        English <br> Room: 101 <br> Dr. Mr
-                                                    </td>
-                                                    <td data-label="10.00 am - 11.00 am">English <br> Room: 101 <br> Dr. Mr</td>
-                                                    <td data-label="10.00 am - 11.00 am">English <br> Room: 101 <br> Dr. Mr</td>
-                                                    <td data-label="10.00 am - 11.00 am">English <br> Room: 101 <br> Dr. Mr</td>
-                                                    <td data-label="10.00 am - 11.00 am">English <br> Room: 101 <br> Dr. Mr</td>
-                                                    <td data-label="10.00 am - 11.00 am">English <br> Room: 101 <br> Dr. Mr</td>
-                                                </tr>
-                                                <tr class="table-row">
-                                                    <td data-label="Day / Time">Satuday</td>
-                                                    <td data-label="10.00 am - 11.00 am">
-                                                        English <br> Room: 101 <br> Dr. Mr
-                                                    </td>
-                                                    <td data-label="10.00 am - 11.00 am">English <br> Room: 101 <br> Dr. Mr</td>
-                                                    <td data-label="10.00 am - 11.00 am">English <br> Room: 101 <br> Dr. Mr</td>
-                                                    <td data-label="10.00 am - 11.00 am">English <br> Room: 101 <br> Dr. Mr</td>
-                                                    <td data-label="10.00 am - 11.00 am">English <br> Room: 101 <br> Dr. Mr</td>
-                                                    <td data-label="10.00 am - 11.00 am">English <br> Room: 101 <br> Dr. Mr</td>
-                                                </tr>
-                                                <tr class="table-row">
-                                                    <td data-label="Day / Time">Satuday</td>
-                                                    <td data-label="10.00 am - 11.00 am">
-                                                        English <br> Room: 101 <br> Dr. Mr
-                                                    </td>
-                                                    <td data-label="10.00 am - 11.00 am">English <br> Room: 101 <br> Dr. Mr</td>
-                                                    <td data-label="10.00 am - 11.00 am">English <br> Room: 101 <br> Dr. Mr</td>
-                                                    <td data-label="10.00 am - 11.00 am">English <br> Room: 101 <br> Dr. Mr</td>
-                                                    <td data-label="10.00 am - 11.00 am">English <br> Room: 101 <br> Dr. Mr</td>
-                                                    <td data-label="10.00 am - 11.00 am">English <br> Room: 101 <br> Dr. Mr</td>
-                                                </tr>
-
-                                            </tbody>
-                                        </table>
 
                                     </div>
+
                                 </div>
+                                <!-- attendance -->
+
                             </div>
                         </div>
 
@@ -475,21 +534,13 @@
     </script>
     <!--=== Bootstrap4 js ===-->
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-    <!--=== owl carousel ===-->
-    <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
-    <!--=== magnific-popup ===-->
-    <script type="text/javascript" src="assets/js/magnific-popup.min.js"></script>
-    <!--=== owl carousel ===-->
     <!--=== Main js ===-->
     <script type="text/javascript" src="assets/js/main.js"></script>
-
     <script>
-        //   $(document).ready(function() {
-        //   $("#side-navCollapse").on("click", function() {
-        //     $("#side-nav").toggleClass("active");
-        //     $(this).toggleClass("active");
-        //   });
-        // });
+        // tooltips
+        $(function() {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
     </script>
 </body>
 

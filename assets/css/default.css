@@ -1191,6 +1191,12 @@ p {
     font-size: 1.3rem;
 }
 
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
 .grid-5 {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -1413,6 +1419,56 @@ p {
 .table-view-content {
     overflow-x: auto;
     /* width: 99%; */
+}
+
+.video-icon {
+    background: #fff;
+    height: 60px;
+    text-align: center;
+    width: 60px;
+    border-radius: 100%;
+    text-align: center;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-icon i {
+    color: #2E3192;
+}
+
+.paid-btn,
+.unpaid-btn {
+    padding: 2px 3px;
+    width: 90px;
+}
+
+.paid-btn {
+    background-color: rgb(10 207 151 / 34%);
+    color: #0ACF97;
+}
+
+.unpaid-btn {
+    background-color: rgb(250 92 124 / 34%);
+    color: #FA5C7C;
+}
+
+.apple-bg {
+    background-color: #26225E;
+}
+
+.blue-h-bg {
+    background-color: #2445BF;
+}
+
+@media (max-width: 767px) {
+    .grid-3,
+    .grid-auto {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
 }
 
 

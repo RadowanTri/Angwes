@@ -39,3 +39,76 @@
 .cariculam-c .btn-sky-bg:hover {
     color: #fff;
 }
+
+
+/* assignment */
+
+.assignment-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.assignment-content p {
+    color: #fff;
+}
+
+
+/* attendance */
+
+
+/* Attendance */
+
+.attendance .btn-grps button {
+    width: 100%;
+}
+
+.attendance .submit-btn {
+    background-color: #132035;
+    color: #ffff;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.attendance .card-bg {
+    background-color: #6C757D;
+    color: #ffff;
+}
+
+.attendance-form .table thead th {
+    background-color: #132035;
+    color: #ffff;
+    padding-bottom: 10px;
+    cursor: pointer;
+    font-size: .75rem;
+    position: relative;
+}
+
+.attendance-form .table thead th:hover {
+    background-color: #39AFD1;
+    color: #FFFF;
+}
+
+
+/* wallet */
+
+.t-amount h4,
+.t-amount h6 {
+    color: #fff;
+    line-height: 1.5;
+}
+
+
+/* annonya */
+
+.money-transfer-form-body {
+    border: 20px solid #2445BF;
+    margin-top: 50px;
+}
+
+.money-transfer-form-body .form-title.bg-black {
+    background: #000;
+    padding: 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
