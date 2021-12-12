@@ -1462,6 +1462,24 @@ p {
     background-color: #2445BF;
 }
 
+.max-width-40 {
+    max-width: 40rem;
+}
+
+.miidle-aps {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+
+.t-border {
+    border: #dee2e6;
+}
+
 @media (max-width: 767px) {
     .grid-3,
     .grid-auto {

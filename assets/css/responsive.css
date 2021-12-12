@@ -34,6 +34,17 @@
     .table-view-content thead th {
         white-space: pre;
     }
+    .max-width-30 {
+        max-width: 20rem;
+    }
+    .cariculam-c .btn {
+        margin-bottom: 10px;
+        display: block;
+    }
+    /* job */
+    .catagory_area .popular_search ul li {
+        margin-bottom: 15px;
+    }
 }
 
 
@@ -44,6 +55,9 @@
     .page-title,
     .select-view h3 {
         font-size: 1.1rem;
+    }
+    .btn {
+        font-size: 13px;
     }
     #content-wrapper .container-fluid {
         padding-right: 5px;
@@ -72,6 +86,7 @@
         font-size: 13px;
         font-weight: 500;
         padding-left: 30%;
+        border: 1px solid #dee2e6;
     }
     .table-view-content .table-body td::before {
         content: attr(data-label);

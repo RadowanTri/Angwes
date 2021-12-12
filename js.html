@@ -55,22 +55,14 @@
     <p id="demo"></p>
 
     <script>
-        // const numbers = [45, 4, 9, 16, 25];
-        // let sum = numbers.reduce(myFunction);
+        const vowels = [1, 2, 3, 5, 3, 4, 5];
 
-        // function myFunction(total, value, index, array) {
-        //     return total + value;
-        // }
-        const numbers = [45, 4, 9, 16, 25];
-        let sum = numbers.reduce(myFunction);
+        const dub = vowels.filter(function(value, index, array) {
+            return array.indexOf(value) !== index;
 
-        function myFunction(total, value, index, array) {
-            console.log(total);
-            console.log("-----------");
-            return total + value;
-        }
-        const newNumber = numbers.reduce(myFunction);
-        console.log(newNumber);
+        });
+
+        console.log(dub);
     </script>
 
 
