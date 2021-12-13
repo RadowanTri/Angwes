@@ -92,7 +92,7 @@
             </li>
             <!-- Divider -->
             <hr class="sidebar-divider">
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="take-exam.html">
                     <i class="fas fa-book"></i>
                     <span>Take Exam</span>
@@ -136,7 +136,7 @@
                     <span>Accounting</span>
                 </a>
                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">>
+                    <div class="bg-white py-2 collapse-inner rounded">
                         <a class="collapse-item" href="payment.html">Payment</a>
                         <a class="collapse-item" href="wallet.html">Wallet</a>
                     </div>
@@ -152,7 +152,7 @@
             </li>
             <!-- Divider -->
             <hr class="sidebar-divider">
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link" href="certificate.html">
                     <i class="fas fa-certificate"></i>
                     <span>Course Certifacte</span></a>
@@ -176,6 +176,7 @@
                 </a>
                 <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
+                        <!-- <h6 class="collapse-header">Custom Components:</h6> -->
                         <a class="collapse-item" href="notice.html">Notice</a>
                         <a class="collapse-item" href="holiday.html">Holiday</a>
                         <a class="collapse-item" href="event.html">Events</a>
@@ -324,8 +325,11 @@
                                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i> Logout
                                 </a>
+
                             </div>
                         </li>
+
+
                     </ul>
 
                 </nav>
@@ -337,88 +341,53 @@
                             <div class="card-body">
                                 <h4 class="page-title">
                                     <a href="index.html" class="sm-none"><i class="fas fa-th-large"></i> <span>Dashboard</span> <span class="slash">/</span> </a>
-                                    <a href="take-exam.html" class="page-active"> <i class="fas fa-users"></i> <span>Take Exam</span> </a>
+                                    <a href="certificate.html" class="page-active"> <i class="fas fa-users"></i> <span>Certificate</span> </a>
+
                                 </h4>
                             </div>
                             <!-- end card body-->
                         </div>
                     </div>
-                    <div class="content-body  mb-4">
+                    <div class="content-body  mb-4 exam-schedule">
                         <div class="content_shadow">
                             <div class="take-exam p-3">
-                                <div class="course-form col-lg-12 col-xl-10 m-auto">
-                                    <form action="">
-                                        <div class="grid-auto  mb-4">
-                                            <select name="" id="" class="form-control">
-                                                <option value="" selected="">Class</option>
-                                                <option value="">1</option>
-                                                <option value="">2</option>
-                                            </select>
-                                            <select name="" id="" class="form-control">
-                                                <option value="" selected="">Section</option>
-                                                <option value="">2</option>
-                                                <option value="">2</option>
-                                            </select>
-                                            <select name="" id="" class="form-control">
-                                                <option value="" selected="">Subject</option>
-                                                <option value="">2</option>
-                                                <option value="">2</option>
-                                            </select>
-                                            <div>
-                                                <button class="btn btn-filter">Filter</button>
-                                            </div>
-                                        </div>
+                                <div class="course-form row justify-content-center">
+                                    <div class="col-md-10">
+                                        <form action="" class="ml-auto ">
+                                            <div class="grid-auto  mb-4">
+                                                <select name="" id="" class="form-control">
+                                                    <option value="" selected="">Class</option>
+                                                    <option value="">1</option>
+                                                    <option value="">2</option>
+                                                </select>
 
-                                    </form>
-                                </div>
-                                <div class="row mt-5">
-                                    <div class="col-md-12 col-lg-8">
-                                        <div class="exam h-100 border p-3">
-                                            <div class="text-center mb-3">
-                                                <h5 class="exam-heading">Exam Name : Class Test</h5>
+                                                <select name="" id="" class="form-control">
+                                                    <option value="" selected="">Year</option>
+                                                    <option value="">2</option>
+                                                    <option value="">2</option>
+                                                </select>
+                                                <div>
+                                                    <button class="btn btn-filter">Filter</button>
+                                                </div>
                                             </div>
-                                            <div class="exam-ques j-between">
 
-                                                <p>1. Question : What are the symptoms of COVID-19 What are the symptoms of COVID-19?</p>
-                                                <p>----- Mark-10.</p>
-                                            </div>
-                                            <div class="exam-ques j-between">
-
-                                                <p>1. Question : What are the symptoms of COVID-19?</p>
-                                                <p>----- Mark-10.</p>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="col-md-12 col-lg-4 ">
-                                        <div class="border h-100 p-3">
-                                            <div class="text-center mb-3">
-                                                <h4 class="exam-resut text-sky">Exam Info : Pass</h4>
-                                            </div>
-                                            <table class="table">
-                                                <tr>
-                                                    <td>Total Question : 2</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Total Answer : 2</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Total Marks : 2</td>
-                                                </tr>
-                                            </table>
-                                        </div>
-
+                                        </form>
                                     </div>
                                 </div>
+
                             </div>
+
+
+
                         </div>
+
                     </div>
+
                     <!-- End of Container -->
                 </div>
             </div>
             <!-- End of Sidebar -->
         </div>
-
 
 
         <!--=== All Plugin ===-->
